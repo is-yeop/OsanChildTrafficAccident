@@ -1,4 +1,10 @@
+# Custom
+# 파이참 설정 제거
 .idea
+# 민감한 데이터 업로드 x
+data
+
+
 led / optimized / DLL files
 __pycache__/
 *.py[cod]
