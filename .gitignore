@@ -3,7 +3,12 @@
 .idea
 # 민감한 데이터 업로드 x
 data
-
+config.yml
+# Mac file system
+.DS_Store
+#
+# my own
+zipped_data.zip
 
 led / optimized / DLL files
 __pycache__/
