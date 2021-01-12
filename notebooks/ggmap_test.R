@@ -4,7 +4,7 @@
 # Created on: 2021/01/10
 
 # ggmap settings
-library(ggmap, ggplot2, geojsonR)
+library(ggmap, ggplot2, geojsonR, config)
 register_google(config::get("GOOGLE_MAP_API_KEY", file = "../config.yml"))
 
 # ggmap(get_map(location = "south korea", zoom = 7))
